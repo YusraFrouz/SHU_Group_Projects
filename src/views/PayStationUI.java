@@ -89,8 +89,18 @@ public class PayStationUI extends javax.swing.JFrame {
         jLabel3.setText("Current Balance");
 
         ps_btnPayWithCash.setText("Pay With Cash");
+        ps_btnPayWithCash.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ps_btnPayWithCashActionPerformed(evt);
+            }
+        });
 
         ps_btnPayWithCard.setText("Pay With Card");
+        ps_btnPayWithCard.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ps_btnPayWithCardActionPerformed(evt);
+            }
+        });
 
         ps_btnExit.setText("Exit");
         ps_btnExit.addActionListener(new java.awt.event.ActionListener() {
@@ -188,6 +198,20 @@ public class PayStationUI extends javax.swing.JFrame {
         readToken.setVisible(false);
         readBalance.setVisible(true);
     }//GEN-LAST:event_ps_btnScanTokenActionPerformed
+
+    private void ps_btnPayWithCashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ps_btnPayWithCashActionPerformed
+        // TODO add your handling code here:
+        CashPaymentUI cashpayment = new CashPaymentUI();
+        cashpayment.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_ps_btnPayWithCashActionPerformed
+
+    private void ps_btnPayWithCardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ps_btnPayWithCardActionPerformed
+        // TODO add your handling code here:
+        CardPaymentUI cardpayment = new CardPaymentUI();
+        cardpayment.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_ps_btnPayWithCardActionPerformed
 
     /**
      * @param args the command line arguments

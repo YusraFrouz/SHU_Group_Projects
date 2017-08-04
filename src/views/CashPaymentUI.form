@@ -62,14 +62,15 @@
                               </Group>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
-                              <Component id="cashp_11" min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="cashp_dot" min="-2" pref="49" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="cashp_del" min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="cashp_10" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cashp_btndel" min="-2" pref="49" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jTextField1" max="32767" attributes="0"/>
+                          <Component id="cashp_amount" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="cashp_1" min="-2" pref="49" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
@@ -90,6 +91,11 @@
               </Group>
               <EmptySpace min="-2" pref="167" max="-2" attributes="0"/>
           </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="cashp_lblSuccessMsg" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="210" max="-2" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -102,8 +108,10 @@
               <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Component id="cashp_amount" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="cashp_lblSuccessMsg" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="cashp_3" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                   <Component id="cashp_2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
@@ -123,8 +131,9 @@
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="cashp_del" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="cashp_11" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="cashp_btndel" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="cashp_10" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="cashp_dot" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="27" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -200,14 +209,14 @@
         <Property name="text" type="java.lang.String" value="9"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="cashp_del">
+    <Component class="javax.swing.JButton" name="cashp_btndel">
       <Properties>
         <Property name="text" type="java.lang.String" value="del"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextField1">
+    <Component class="javax.swing.JTextField" name="cashp_amount">
     </Component>
-    <Component class="javax.swing.JButton" name="cashp_11">
+    <Component class="javax.swing.JButton" name="cashp_10">
       <Properties>
         <Property name="text" type="java.lang.String" value="0"/>
       </Properties>
@@ -220,6 +229,16 @@
     <Component class="javax.swing.JButton" name="cashp_btnCancel">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cashp_lblSuccessMsg">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Successful Message"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cashp_dot">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="."/>
       </Properties>
     </Component>
   </SubComponents>

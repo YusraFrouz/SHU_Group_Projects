@@ -16,6 +16,9 @@ public class CardPaymentUI extends javax.swing.JFrame {
      */
     public CardPaymentUI() {
         initComponents();
+        EnterAmount.setVisible(true);
+        InsertCard.setVisible(false);
+        EnterPIN.setVisible(false);
     }
 
     /**
@@ -32,86 +35,101 @@ public class CardPaymentUI extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        cashp_1 = new javax.swing.JButton();
-        cashp_4 = new javax.swing.JButton();
-        cashp_7 = new javax.swing.JButton();
-        cashp_dot = new javax.swing.JButton();
-        cashp_10 = new javax.swing.JButton();
-        cashp_del = new javax.swing.JButton();
-        cashp_9 = new javax.swing.JButton();
-        cashp_8 = new javax.swing.JButton();
-        cashp_5 = new javax.swing.JButton();
-        cashp_2 = new javax.swing.JButton();
-        cashp_3 = new javax.swing.JButton();
-        cashp_6 = new javax.swing.JButton();
-        cashp_btnCancel = new javax.swing.JButton();
-        cashp_btnProceed = new javax.swing.JButton();
+        cardp_amount = new javax.swing.JTextField();
+        cardp_1 = new javax.swing.JButton();
+        cardp_4 = new javax.swing.JButton();
+        cardp_7 = new javax.swing.JButton();
+        cardp_dot = new javax.swing.JButton();
+        cardp_10 = new javax.swing.JButton();
+        cardp_del = new javax.swing.JButton();
+        cardp_9 = new javax.swing.JButton();
+        cardp_8 = new javax.swing.JButton();
+        cardp_5 = new javax.swing.JButton();
+        cardp_2 = new javax.swing.JButton();
+        cardp_3 = new javax.swing.JButton();
+        cardp_6 = new javax.swing.JButton();
+        cardp_btnCancel = new javax.swing.JButton();
+        cardp_btnProceed = new javax.swing.JButton();
         InsertCard = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        cashp_btnProceed1 = new javax.swing.JButton();
-        cashp_btnCancel1 = new javax.swing.JButton();
+        cardp_btnInsertCardProceed = new javax.swing.JButton();
+        cashp_btnInsertCardCancel = new javax.swing.JButton();
         EnterPIN = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        cashp_btnProceed2 = new javax.swing.JButton();
-        cashp_btnCancel2 = new javax.swing.JButton();
-        cashp_11 = new javax.swing.JButton();
-        cashp_12 = new javax.swing.JButton();
-        cashp_13 = new javax.swing.JButton();
-        cashp_14 = new javax.swing.JButton();
-        cashp_15 = new javax.swing.JButton();
-        cashp_16 = new javax.swing.JButton();
-        cashp_17 = new javax.swing.JButton();
-        cashp_18 = new javax.swing.JButton();
-        cashp_19 = new javax.swing.JButton();
-        cashp_20 = new javax.swing.JButton();
-        cashp_del1 = new javax.swing.JButton();
-        jTextField2 = new javax.swing.JTextField();
+        cardp_btnEnterPINProceed = new javax.swing.JButton();
+        cardp_btnEnterPINCancel = new javax.swing.JButton();
+        cardp_p1 = new javax.swing.JButton();
+        cardp_p2 = new javax.swing.JButton();
+        cardp_p3 = new javax.swing.JButton();
+        cardp_p0 = new javax.swing.JButton();
+        cardp_p8 = new javax.swing.JButton();
+        cardp_p5 = new javax.swing.JButton();
+        cardp_p4 = new javax.swing.JButton();
+        cardp_p7 = new javax.swing.JButton();
+        cardp_p9 = new javax.swing.JButton();
+        cardp_p6 = new javax.swing.JButton();
+        cardp_pdel = new javax.swing.JButton();
+        cardp_pin = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setText("Transit Authority");
 
-        jLabel2.setText("Caed Payment");
+        jLabel2.setText("Card Payment");
 
         jLabel3.setText("Enter Amount");
 
-        cashp_1.setText("1");
+        cardp_1.setText("1");
 
-        cashp_4.setText("4");
-
-        cashp_7.setText("7");
-
-        cashp_dot.setText(".");
-
-        cashp_10.setText("0");
-
-        cashp_del.setText("del");
-
-        cashp_9.setText("9");
-
-        cashp_8.setText("8");
-
-        cashp_5.setText("5");
-        cashp_5.addActionListener(new java.awt.event.ActionListener() {
+        cardp_4.setText("4");
+        cardp_4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cashp_5ActionPerformed(evt);
+                cardp_4ActionPerformed(evt);
             }
         });
 
-        cashp_2.setText("2");
+        cardp_7.setText("7");
 
-        cashp_3.setText("3");
+        cardp_dot.setText(".");
 
-        cashp_6.setText("6");
+        cardp_10.setText("0");
 
-        cashp_btnCancel.setText("Cancel");
+        cardp_del.setText("del");
 
-        cashp_btnProceed.setText("Proceed");
+        cardp_9.setText("9");
+
+        cardp_8.setText("8");
+
+        cardp_5.setText("5");
+        cardp_5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cardp_5ActionPerformed(evt);
+            }
+        });
+
+        cardp_2.setText("2");
+
+        cardp_3.setText("3");
+
+        cardp_6.setText("6");
+
+        cardp_btnCancel.setText("Cancel");
+        cardp_btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cardp_btnCancelActionPerformed(evt);
+            }
+        });
+
+        cardp_btnProceed.setText("Proceed");
+        cardp_btnProceed.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cardp_btnProceedActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout EnterAmountLayout = new javax.swing.GroupLayout(EnterAmount);
         EnterAmount.setLayout(EnterAmountLayout);
@@ -137,38 +155,38 @@ public class CardPaymentUI extends javax.swing.JFrame {
                                 .addGroup(EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                         .addGroup(EnterAmountLayout.createSequentialGroup()
-                                            .addComponent(cashp_4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(cardp_4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(cashp_5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(cardp_5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(cashp_6, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(cardp_6, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addGroup(EnterAmountLayout.createSequentialGroup()
-                                            .addComponent(cashp_7, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(cardp_7, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(cashp_8, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(cardp_8, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(cashp_9, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                            .addComponent(cardp_9, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addGroup(EnterAmountLayout.createSequentialGroup()
-                                        .addComponent(cashp_dot, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_dot, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_10, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_10, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_del, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(cardp_del, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField1)
+                                    .addComponent(cardp_amount)
                                     .addGroup(EnterAmountLayout.createSequentialGroup()
-                                        .addComponent(cashp_1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(cardp_3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(EnterAmountLayout.createSequentialGroup()
-                                    .addComponent(cashp_btnProceed)
+                                    .addComponent(cardp_btnProceed)
                                     .addGap(110, 110, 110)))
                             .addGroup(EnterAmountLayout.createSequentialGroup()
                                 .addGap(132, 132, 132)
-                                .addComponent(cashp_btnCancel))))
-                    .addContainerGap(189, Short.MAX_VALUE)))
+                                .addComponent(cardp_btnCancel))))
+                    .addContainerGap(190, Short.MAX_VALUE)))
         );
         EnterAmountLayout.setVerticalGroup(
             EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -182,31 +200,31 @@ public class CardPaymentUI extends javax.swing.JFrame {
                     .addGap(33, 33, 33)
                     .addComponent(jLabel3)
                     .addGap(18, 18, 18)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cardp_amount, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(42, 42, 42)
                     .addGroup(EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_3, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_3, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addGroup(EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_4, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_5, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_6, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_4, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_5, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_6, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addGroup(EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_8, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_7, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_9, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_8, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_7, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_9, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                     .addGroup(EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_del, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_10, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_dot, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_del, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_10, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_dot, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                     .addGroup(EnterAmountLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_btnProceed)
-                        .addComponent(cashp_btnCancel))
+                        .addComponent(cardp_btnProceed)
+                        .addComponent(cardp_btnCancel))
                     .addGap(37, 37, 37)))
         );
 
@@ -216,9 +234,19 @@ public class CardPaymentUI extends javax.swing.JFrame {
 
         jLabel6.setText("PLEASE INSERT CARD");
 
-        cashp_btnProceed1.setText("Proceed");
+        cardp_btnInsertCardProceed.setText("Proceed");
+        cardp_btnInsertCardProceed.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cardp_btnInsertCardProceedActionPerformed(evt);
+            }
+        });
 
-        cashp_btnCancel1.setText("Cancel");
+        cashp_btnInsertCardCancel.setText("Cancel");
+        cashp_btnInsertCardCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cashp_btnInsertCardCancelActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout InsertCardLayout = new javax.swing.GroupLayout(InsertCard);
         InsertCard.setLayout(InsertCardLayout);
@@ -231,9 +259,9 @@ public class CardPaymentUI extends javax.swing.JFrame {
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(InsertCardLayout.createSequentialGroup()
                         .addGap(151, 151, 151)
-                        .addComponent(cashp_btnProceed1)
+                        .addComponent(cardp_btnInsertCardProceed)
                         .addGap(96, 96, 96)
-                        .addComponent(cashp_btnCancel1))
+                        .addComponent(cashp_btnInsertCardCancel))
                     .addGroup(InsertCardLayout.createSequentialGroup()
                         .addGap(243, 243, 243)
                         .addComponent(jLabel5))
@@ -253,8 +281,8 @@ public class CardPaymentUI extends javax.swing.JFrame {
                 .addComponent(jLabel6)
                 .addGap(31, 31, 31)
                 .addGroup(InsertCardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cashp_btnProceed1)
-                    .addComponent(cashp_btnCancel1))
+                    .addComponent(cardp_btnInsertCardProceed)
+                    .addComponent(cashp_btnInsertCardCancel))
                 .addGap(296, 296, 296))
         );
 
@@ -264,36 +292,41 @@ public class CardPaymentUI extends javax.swing.JFrame {
 
         jLabel9.setText("Enter PIN");
 
-        cashp_btnProceed2.setText("Proceed");
-
-        cashp_btnCancel2.setText("Cancel");
-
-        cashp_11.setText("1");
-
-        cashp_12.setText("2");
-
-        cashp_13.setText("3");
-
-        cashp_14.setText("0");
-
-        cashp_15.setText("8");
-
-        cashp_16.setText("5");
-        cashp_16.addActionListener(new java.awt.event.ActionListener() {
+        cardp_btnEnterPINProceed.setText("Proceed");
+        cardp_btnEnterPINProceed.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                cashp_16ActionPerformed(evt);
+                cardp_btnEnterPINProceedActionPerformed(evt);
             }
         });
 
-        cashp_17.setText("4");
+        cardp_btnEnterPINCancel.setText("Cancel");
 
-        cashp_18.setText("7");
+        cardp_p1.setText("1");
 
-        cashp_19.setText("9");
+        cardp_p2.setText("2");
 
-        cashp_20.setText("6");
+        cardp_p3.setText("3");
 
-        cashp_del1.setText("del");
+        cardp_p0.setText("0");
+
+        cardp_p8.setText("8");
+
+        cardp_p5.setText("5");
+        cardp_p5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cardp_p5ActionPerformed(evt);
+            }
+        });
+
+        cardp_p4.setText("4");
+
+        cardp_p7.setText("7");
+
+        cardp_p9.setText("9");
+
+        cardp_p6.setText("6");
+
+        cardp_pdel.setText("del");
 
         javax.swing.GroupLayout EnterPINLayout = new javax.swing.GroupLayout(EnterPIN);
         EnterPIN.setLayout(EnterPINLayout);
@@ -320,36 +353,36 @@ public class CardPaymentUI extends javax.swing.JFrame {
                             .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                 .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(EnterPINLayout.createSequentialGroup()
-                                        .addComponent(cashp_17, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_p4, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_16, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_p5, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_20, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addComponent(cardp_p6, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(EnterPINLayout.createSequentialGroup()
-                                        .addComponent(cashp_18, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_p7, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_15, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(cardp_p8, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(cashp_19, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(cardp_p9, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addGroup(EnterPINLayout.createSequentialGroup()
                                     .addGap(55, 55, 55)
-                                    .addComponent(cashp_14, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(cardp_p0, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(cashp_del1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(cardp_pdel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jTextField2)
+                                .addComponent(cardp_pin)
                                 .addGroup(EnterPINLayout.createSequentialGroup()
-                                    .addComponent(cashp_11, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(cardp_p1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(cashp_12, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(cardp_p2, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(cashp_13, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(cardp_p3, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(EnterPINLayout.createSequentialGroup()
-                                .addComponent(cashp_btnProceed2)
+                                .addComponent(cardp_btnEnterPINProceed)
                                 .addGap(110, 110, 110)))
                         .addGroup(EnterPINLayout.createSequentialGroup()
                             .addGap(132, 132, 132)
-                            .addComponent(cashp_btnCancel2)))
+                            .addComponent(cardp_btnEnterPINCancel)))
                     .addContainerGap(190, Short.MAX_VALUE)))
         );
         EnterPINLayout.setVerticalGroup(
@@ -365,30 +398,30 @@ public class CardPaymentUI extends javax.swing.JFrame {
             .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(EnterPINLayout.createSequentialGroup()
                     .addGap(185, 185, 185)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cardp_pin, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGap(42, 42, 42)
                     .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_13, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_12, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_11, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_p3, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_p2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_p1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_17, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_16, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_20, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_p4, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_p5, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_p6, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                     .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_15, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_18, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_19, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_p8, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_p7, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_p9, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                     .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_del1, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(cashp_14, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(cardp_pdel, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(cardp_p0, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                     .addGroup(EnterPINLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(cashp_btnProceed2)
-                        .addComponent(cashp_btnCancel2))
+                        .addComponent(cardp_btnEnterPINProceed)
+                        .addComponent(cardp_btnEnterPINCancel))
                     .addGap(37, 37, 37)))
         );
 
@@ -429,13 +462,47 @@ public class CardPaymentUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void cashp_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cashp_5ActionPerformed
+    private void cardp_5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardp_5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cashp_5ActionPerformed
+    }//GEN-LAST:event_cardp_5ActionPerformed
 
-    private void cashp_16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cashp_16ActionPerformed
+    private void cardp_p5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardp_p5ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_cashp_16ActionPerformed
+    }//GEN-LAST:event_cardp_p5ActionPerformed
+
+    private void cardp_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardp_4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cardp_4ActionPerformed
+
+    private void cardp_btnProceedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardp_btnProceedActionPerformed
+        // TODO add your handling code here:
+        InsertCard.setVisible(true);
+        EnterAmount.setVisible(false);
+    }//GEN-LAST:event_cardp_btnProceedActionPerformed
+
+    private void cardp_btnCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardp_btnCancelActionPerformed
+        // TODO add your handling code here:
+        PayStationUI paystation = new PayStationUI();
+        paystation.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_cardp_btnCancelActionPerformed
+
+    private void cardp_btnInsertCardProceedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardp_btnInsertCardProceedActionPerformed
+        EnterPIN.setVisible(true);
+        InsertCard.setVisible(false);
+    }//GEN-LAST:event_cardp_btnInsertCardProceedActionPerformed
+
+    private void cashp_btnInsertCardCancelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cashp_btnInsertCardCancelActionPerformed
+        // TODO add your handling code here:
+        PayStationUI paystation = new PayStationUI();
+        paystation.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_cashp_btnInsertCardCancelActionPerformed
+
+    private void cardp_btnEnterPINProceedActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cardp_btnEnterPINProceedActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_cardp_btnEnterPINProceedActionPerformed
 
     /**
      * @param args the command line arguments
@@ -476,35 +543,37 @@ public class CardPaymentUI extends javax.swing.JFrame {
     private javax.swing.JPanel EnterAmount;
     private javax.swing.JPanel EnterPIN;
     private javax.swing.JPanel InsertCard;
-    private javax.swing.JButton cashp_1;
-    private javax.swing.JButton cashp_10;
-    private javax.swing.JButton cashp_11;
-    private javax.swing.JButton cashp_12;
-    private javax.swing.JButton cashp_13;
-    private javax.swing.JButton cashp_14;
-    private javax.swing.JButton cashp_15;
-    private javax.swing.JButton cashp_16;
-    private javax.swing.JButton cashp_17;
-    private javax.swing.JButton cashp_18;
-    private javax.swing.JButton cashp_19;
-    private javax.swing.JButton cashp_2;
-    private javax.swing.JButton cashp_20;
-    private javax.swing.JButton cashp_3;
-    private javax.swing.JButton cashp_4;
-    private javax.swing.JButton cashp_5;
-    private javax.swing.JButton cashp_6;
-    private javax.swing.JButton cashp_7;
-    private javax.swing.JButton cashp_8;
-    private javax.swing.JButton cashp_9;
-    private javax.swing.JButton cashp_btnCancel;
-    private javax.swing.JButton cashp_btnCancel1;
-    private javax.swing.JButton cashp_btnCancel2;
-    private javax.swing.JButton cashp_btnProceed;
-    private javax.swing.JButton cashp_btnProceed1;
-    private javax.swing.JButton cashp_btnProceed2;
-    private javax.swing.JButton cashp_del;
-    private javax.swing.JButton cashp_del1;
-    private javax.swing.JButton cashp_dot;
+    private javax.swing.JButton cardp_1;
+    private javax.swing.JButton cardp_10;
+    private javax.swing.JButton cardp_2;
+    private javax.swing.JButton cardp_3;
+    private javax.swing.JButton cardp_4;
+    private javax.swing.JButton cardp_5;
+    private javax.swing.JButton cardp_6;
+    private javax.swing.JButton cardp_7;
+    private javax.swing.JButton cardp_8;
+    private javax.swing.JButton cardp_9;
+    private javax.swing.JTextField cardp_amount;
+    private javax.swing.JButton cardp_btnCancel;
+    private javax.swing.JButton cardp_btnEnterPINCancel;
+    private javax.swing.JButton cardp_btnEnterPINProceed;
+    private javax.swing.JButton cardp_btnInsertCardProceed;
+    private javax.swing.JButton cardp_btnProceed;
+    private javax.swing.JButton cardp_del;
+    private javax.swing.JButton cardp_dot;
+    private javax.swing.JButton cardp_p0;
+    private javax.swing.JButton cardp_p1;
+    private javax.swing.JButton cardp_p2;
+    private javax.swing.JButton cardp_p3;
+    private javax.swing.JButton cardp_p4;
+    private javax.swing.JButton cardp_p5;
+    private javax.swing.JButton cardp_p6;
+    private javax.swing.JButton cardp_p7;
+    private javax.swing.JButton cardp_p8;
+    private javax.swing.JButton cardp_p9;
+    private javax.swing.JButton cardp_pdel;
+    private javax.swing.JTextField cardp_pin;
+    private javax.swing.JButton cashp_btnInsertCardCancel;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -515,7 +584,5 @@ public class CardPaymentUI extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
 }

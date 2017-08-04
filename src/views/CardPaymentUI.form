@@ -88,50 +88,50 @@
                                       <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                           <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="cashp_4" min="-2" pref="49" max="-2" attributes="0"/>
+                                                  <Component id="cardp_4" min="-2" pref="49" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="cashp_5" min="-2" pref="49" max="-2" attributes="0"/>
+                                                  <Component id="cardp_5" min="-2" pref="49" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="cashp_6" min="-2" pref="49" max="-2" attributes="0"/>
+                                                  <Component id="cardp_6" min="-2" pref="49" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
-                                                  <Component id="cashp_7" min="-2" pref="49" max="-2" attributes="0"/>
+                                                  <Component id="cardp_7" min="-2" pref="49" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="cashp_8" min="-2" pref="49" max="-2" attributes="0"/>
+                                                  <Component id="cardp_8" min="-2" pref="49" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="cashp_9" min="-2" pref="49" max="-2" attributes="0"/>
+                                                  <Component id="cardp_9" min="-2" pref="49" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="cashp_dot" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_dot" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_10" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_10" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_del" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_del" min="-2" pref="49" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jTextField1" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="cardp_amount" alignment="0" max="32767" attributes="0"/>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="cashp_1" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_1" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_2" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_2" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_3" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_3" min="-2" pref="49" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Component id="cashp_btnProceed" min="-2" max="-2" attributes="0"/>
+                                          <Component id="cardp_btnProceed" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
-                                      <Component id="cashp_btnCancel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cardp_btnCancel" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
-                          <EmptySpace pref="189" max="32767" attributes="0"/>
+                          <EmptySpace pref="190" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -148,35 +148,35 @@
                           <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                           <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                          <Component id="cardp_amount" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="42" pref="42" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_3" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_3" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_4" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_5" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_6" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_4" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_5" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_6" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_8" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_7" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_9" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_8" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_7" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_9" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_del" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_10" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_dot" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_del" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_10" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_dot" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="27" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_btnProceed" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cashp_btnCancel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cardp_btnProceed" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cardp_btnCancel" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       </Group>
@@ -192,7 +192,7 @@
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Caed Payment"/>
+                <Property name="text" type="java.lang.String" value="Card Payment"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel3">
@@ -200,80 +200,89 @@
                 <Property name="text" type="java.lang.String" value="Enter Amount"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField1">
+            <Component class="javax.swing.JTextField" name="cardp_amount">
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_1">
+            <Component class="javax.swing.JButton" name="cardp_1">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_4">
+            <Component class="javax.swing.JButton" name="cardp_4">
               <Properties>
                 <Property name="text" type="java.lang.String" value="4"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardp_4ActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_7">
+            <Component class="javax.swing.JButton" name="cardp_7">
               <Properties>
                 <Property name="text" type="java.lang.String" value="7"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_dot">
+            <Component class="javax.swing.JButton" name="cardp_dot">
               <Properties>
                 <Property name="text" type="java.lang.String" value="."/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_10">
+            <Component class="javax.swing.JButton" name="cardp_10">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_del">
+            <Component class="javax.swing.JButton" name="cardp_del">
               <Properties>
                 <Property name="text" type="java.lang.String" value="del"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_9">
+            <Component class="javax.swing.JButton" name="cardp_9">
               <Properties>
                 <Property name="text" type="java.lang.String" value="9"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_8">
+            <Component class="javax.swing.JButton" name="cardp_8">
               <Properties>
                 <Property name="text" type="java.lang.String" value="8"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_5">
+            <Component class="javax.swing.JButton" name="cardp_5">
               <Properties>
                 <Property name="text" type="java.lang.String" value="5"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cashp_5ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardp_5ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_2">
+            <Component class="javax.swing.JButton" name="cardp_2">
               <Properties>
                 <Property name="text" type="java.lang.String" value="2"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_3">
+            <Component class="javax.swing.JButton" name="cardp_3">
               <Properties>
                 <Property name="text" type="java.lang.String" value="3"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_6">
+            <Component class="javax.swing.JButton" name="cardp_6">
               <Properties>
                 <Property name="text" type="java.lang.String" value="6"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_btnCancel">
+            <Component class="javax.swing.JButton" name="cardp_btnCancel">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cancel"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardp_btnCancelActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_btnProceed">
+            <Component class="javax.swing.JButton" name="cardp_btnProceed">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Proceed"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardp_btnProceedActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -290,9 +299,9 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
-                              <Component id="cashp_btnProceed1" min="-2" max="-2" attributes="0"/>
+                              <Component id="cardp_btnInsertCardProceed" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
-                              <Component id="cashp_btnCancel1" min="-2" max="-2" attributes="0"/>
+                              <Component id="cashp_btnInsertCardCancel" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="243" max="-2" attributes="0"/>
@@ -318,8 +327,8 @@
                       <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="cashp_btnProceed1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="cashp_btnCancel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cardp_btnInsertCardProceed" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cashp_btnInsertCardCancel" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="296" max="-2" attributes="0"/>
                   </Group>
@@ -342,15 +351,21 @@
                 <Property name="text" type="java.lang.String" value="PLEASE INSERT CARD"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_btnProceed1">
+            <Component class="javax.swing.JButton" name="cardp_btnInsertCardProceed">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Proceed"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardp_btnInsertCardProceedActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_btnCancel1">
+            <Component class="javax.swing.JButton" name="cashp_btnInsertCardCancel">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cancel"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cashp_btnInsertCardCancelActionPerformed"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -385,45 +400,45 @@
                                   <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                       <Group type="103" alignment="1" groupAlignment="0" attributes="0">
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="cashp_17" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_p4" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_16" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_p5" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_20" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_p6" min="-2" pref="49" max="-2" attributes="0"/>
                                           </Group>
                                           <Group type="102" alignment="0" attributes="0">
-                                              <Component id="cashp_18" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_p7" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_15" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_p8" min="-2" pref="49" max="-2" attributes="0"/>
                                               <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="cashp_19" min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="cardp_p9" min="-2" pref="49" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace min="55" pref="55" max="-2" attributes="0"/>
-                                          <Component id="cashp_14" min="-2" pref="49" max="-2" attributes="0"/>
+                                          <Component id="cardp_p0" min="-2" pref="49" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="cashp_del1" min="-2" pref="49" max="-2" attributes="0"/>
+                                          <Component id="cardp_pdel" min="-2" pref="49" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="cardp_pin" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="cashp_11" min="-2" pref="49" max="-2" attributes="0"/>
+                                          <Component id="cardp_p1" min="-2" pref="49" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="cashp_12" min="-2" pref="49" max="-2" attributes="0"/>
+                                          <Component id="cardp_p2" min="-2" pref="49" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="cashp_13" min="-2" pref="49" max="-2" attributes="0"/>
+                                          <Component id="cardp_p3" min="-2" pref="49" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
-                                      <Component id="cashp_btnProceed2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cardp_btnEnterPINProceed" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
-                                  <Component id="cashp_btnCancel2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cardp_btnEnterPINCancel" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace pref="190" max="32767" attributes="0"/>
@@ -445,34 +460,34 @@
                   <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
-                          <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                          <Component id="cardp_pin" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="42" pref="42" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_13" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_12" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_11" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p3" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p2" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_17" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_16" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_20" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p4" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p5" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p6" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_15" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_18" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_19" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p8" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p7" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p9" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_del1" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                              <Component id="cashp_14" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_pdel" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="cardp_p0" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace pref="27" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="cashp_btnProceed2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="cashp_btnCancel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cardp_btnEnterPINProceed" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cardp_btnEnterPINCancel" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                       </Group>
@@ -496,75 +511,78 @@
                 <Property name="text" type="java.lang.String" value="Enter PIN"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_btnProceed2">
+            <Component class="javax.swing.JButton" name="cardp_btnEnterPINProceed">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Proceed"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardp_btnEnterPINProceedActionPerformed"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_btnCancel2">
+            <Component class="javax.swing.JButton" name="cardp_btnEnterPINCancel">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Cancel"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_11">
+            <Component class="javax.swing.JButton" name="cardp_p1">
               <Properties>
                 <Property name="text" type="java.lang.String" value="1"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_12">
+            <Component class="javax.swing.JButton" name="cardp_p2">
               <Properties>
                 <Property name="text" type="java.lang.String" value="2"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_13">
+            <Component class="javax.swing.JButton" name="cardp_p3">
               <Properties>
                 <Property name="text" type="java.lang.String" value="3"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_14">
+            <Component class="javax.swing.JButton" name="cardp_p0">
               <Properties>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_15">
+            <Component class="javax.swing.JButton" name="cardp_p8">
               <Properties>
                 <Property name="text" type="java.lang.String" value="8"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_16">
+            <Component class="javax.swing.JButton" name="cardp_p5">
               <Properties>
                 <Property name="text" type="java.lang.String" value="5"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cashp_16ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardp_p5ActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_17">
+            <Component class="javax.swing.JButton" name="cardp_p4">
               <Properties>
                 <Property name="text" type="java.lang.String" value="4"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_18">
+            <Component class="javax.swing.JButton" name="cardp_p7">
               <Properties>
                 <Property name="text" type="java.lang.String" value="7"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_19">
+            <Component class="javax.swing.JButton" name="cardp_p9">
               <Properties>
                 <Property name="text" type="java.lang.String" value="9"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_20">
+            <Component class="javax.swing.JButton" name="cardp_p6">
               <Properties>
                 <Property name="text" type="java.lang.String" value="6"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="cashp_del1">
+            <Component class="javax.swing.JButton" name="cardp_pdel">
               <Properties>
                 <Property name="text" type="java.lang.String" value="del"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField2">
+            <Component class="javax.swing.JTextField" name="cardp_pin">
             </Component>
           </SubComponents>
         </Container>

@@ -192,11 +192,17 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Pay With Cash"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ps_btnPayWithCashActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="ps_btnPayWithCard">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Pay With Card"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ps_btnPayWithCardActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JButton" name="ps_btnExit">
               <Properties>

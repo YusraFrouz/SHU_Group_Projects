@@ -40,11 +40,13 @@ public class CashPaymentUI extends javax.swing.JFrame {
         cashp_7 = new javax.swing.JButton();
         cashp_8 = new javax.swing.JButton();
         cashp_9 = new javax.swing.JButton();
-        cashp_del = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
-        cashp_11 = new javax.swing.JButton();
+        cashp_btndel = new javax.swing.JButton();
+        cashp_amount = new javax.swing.JTextField();
+        cashp_10 = new javax.swing.JButton();
         cashp_btnProceed = new javax.swing.JButton();
         cashp_btnCancel = new javax.swing.JButton();
+        cashp_lblSuccessMsg = new javax.swing.JLabel();
+        cashp_dot = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -77,13 +79,17 @@ public class CashPaymentUI extends javax.swing.JFrame {
 
         cashp_9.setText("9");
 
-        cashp_del.setText("del");
+        cashp_btndel.setText("del");
 
-        cashp_11.setText("0");
+        cashp_10.setText("0");
 
         cashp_btnProceed.setText("Proceed");
 
         cashp_btnCancel.setText("Cancel");
+
+        cashp_lblSuccessMsg.setText("Successful Message");
+
+        cashp_dot.setText(".");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -118,12 +124,13 @@ public class CashPaymentUI extends javax.swing.JFrame {
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(cashp_9, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(layout.createSequentialGroup()
-                                .addGap(55, 55, 55)
-                                .addComponent(cashp_11, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(cashp_dot, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(cashp_del, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(cashp_10, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(cashp_btndel, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jTextField1)
+                            .addComponent(cashp_amount)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(cashp_1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -137,6 +144,10 @@ public class CashPaymentUI extends javax.swing.JFrame {
                         .addGap(132, 132, 132)
                         .addComponent(cashp_btnCancel)))
                 .addGap(167, 167, 167))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(cashp_lblSuccessMsg)
+                .addGap(210, 210, 210))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -148,8 +159,10 @@ public class CashPaymentUI extends javax.swing.JFrame {
                 .addGap(33, 33, 33)
                 .addComponent(jLabel3)
                 .addGap(18, 18, 18)
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42)
+                .addComponent(cashp_amount, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(cashp_lblSuccessMsg)
+                .addGap(17, 17, 17)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cashp_3, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cashp_2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -166,8 +179,9 @@ public class CashPaymentUI extends javax.swing.JFrame {
                     .addComponent(cashp_9, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cashp_del, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(cashp_11, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(cashp_btndel, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cashp_10, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cashp_dot, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cashp_btnProceed)
@@ -219,7 +233,7 @@ public class CashPaymentUI extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton cashp_1;
-    private javax.swing.JButton cashp_11;
+    private javax.swing.JButton cashp_10;
     private javax.swing.JButton cashp_2;
     private javax.swing.JButton cashp_3;
     private javax.swing.JButton cashp_4;
@@ -228,13 +242,15 @@ public class CashPaymentUI extends javax.swing.JFrame {
     private javax.swing.JButton cashp_7;
     private javax.swing.JButton cashp_8;
     private javax.swing.JButton cashp_9;
+    private javax.swing.JTextField cashp_amount;
     private javax.swing.ButtonGroup cashp_btnAmount;
     private javax.swing.JButton cashp_btnCancel;
     private javax.swing.JButton cashp_btnProceed;
-    private javax.swing.JButton cashp_del;
+    private javax.swing.JButton cashp_btndel;
+    private javax.swing.JButton cashp_dot;
+    private javax.swing.JLabel cashp_lblSuccessMsg;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
