@@ -1,6 +1,7 @@
 
 package models;
 
+import controllers.token;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -10,30 +11,30 @@ import java.util.Date;
  */
 public class Journey implements Serializable  {
     
-    private Token tokenID;
+    private token tokenObj;
     private Float charge;
     private NetworkStop startStop;
     private Date startTime;
     private NetworkStop stopStop;
     private Date stopTime;
-    private Network networkType;
-    private Route route;
+    //private Network networkType;
+   // private Route route;
       
-    public Journey(Token tokentID, Float charge,NetworkStop startStop, Date startTime, NetworkStop stopstop, Date stoptime, Network networkType, Route route){
+    public Journey(token tokenObj, Float charge,NetworkStop startStop, Date startTime, NetworkStop stopstop, Date stoptime){
     
-        this.tokenID = tokenID;
+        this.tokenObj = tokenObj;
         this.charge = charge;
         this.startStop = startStop;
         this.startTime = startTime;
         this.stopStop = stopStop;
         this.stopTime = stopTime;
-        this.networkType = networkType;
-        this.route = route;
+        //this.networkType = networkType;
+       // this.route = route;
            
     }
 
-    public Token getTokenID() {
-        return tokenID;
+    public token getTokenID() {
+        return tokenObj;
     }
 
     public Float getCharge() {
@@ -56,13 +57,13 @@ public class Journey implements Serializable  {
         return stopTime;
     }
 
-    public Network getNetworkType() {
+    /*public Network getNetworkType() {
         return networkType;
     }
 
     public Route getRoute() {
         return route;
-    }
+    }*/
  
    
     
